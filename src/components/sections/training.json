@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_sections_trainings",
+  "info": {
+    "displayName": "training"
+  },
+  "options": {},
+  "attributes": {
+    "description1": {
+      "type": "richtext"
+    },
+    "description2": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "image1": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "image2": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_sections_cta_sections",
+  "info": {
+    "displayName": "cta_section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "features": {
+      "type": "component",
+      "component": "feature.feature",
+      "repeatable": true
+    },
+    "icon": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

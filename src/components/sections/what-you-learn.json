@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_what_you_learns",
+  "info": {
+    "displayName": "what_you_learn"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "modules": {
+      "type": "component",
+      "component": "benefit.benefit",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

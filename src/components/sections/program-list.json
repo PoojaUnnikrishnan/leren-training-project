@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_sections_program_lists",
+  "info": {
+    "displayName": "program_list"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "hero_component": {
+      "type": "component",
+      "component": "sections.program-hero",
+      "repeatable": true
+    },
+    "what_we_offer": {
+      "type": "component",
+      "component": "sections.benefits",
+      "repeatable": true
+    },
+    "what_you_learn": {
+      "type": "component",
+      "component": "sections.what-you-learn",
+      "repeatable": true
+    },
+    "cta": {
+      "type": "component",
+      "component": "sections.hero-cta",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

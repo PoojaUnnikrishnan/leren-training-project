@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_get_in_touches",
+  "info": {
+    "displayName": "get-in-touch"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "cta_1": {
+      "type": "string"
+    },
+    "contacts": {
+      "type": "component",
+      "component": "feature.feature",
+      "repeatable": true
+    },
+    "social_contacts": {
+      "type": "component",
+      "component": "feature.feature",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
